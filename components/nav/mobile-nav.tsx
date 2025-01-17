@@ -11,7 +11,8 @@ import { cn } from "@/lib/utils";
 
 // Component Imports
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea } from "@radix-ui/react-scroll-area";
+// import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Sheet,
   SheetContent,
@@ -19,7 +20,8 @@ import {
   SheetTitle,
   SheetHeader,
 } from "@/components/ui/sheet";
-import { Separator } from "@/components/ui/separator";
+// import { Separator } from "@/components/ui/separator";
+import { Separator } from "@radix-ui/react-separator";
 
 import { mainMenu, contentMenu } from "@/menu.config";
 import { siteConfig } from "@/site.config";

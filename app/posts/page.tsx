@@ -78,7 +78,7 @@ export default async function Page({
       <Container>
         <div className="space-y-8">
           <Prose>
-            <h2>All Posts</h2>
+            <h2>インディゲーム記事一覧</h2>
             <p className="text-muted-foreground">
               {posts.length} {posts.length === 1 ? "post" : "posts"} found
               {search && " matching your search"}
