@@ -1,4 +1,4 @@
-import { Category, WordPressCategory } from '../types/wordpress'
+import { Category, WordPressCategory } from '../../types/wordpress'
 
 export function sortAndEnhanceCategories(categories: WordPressCategory[], topCount: number = 4): Category[] {
   if (!categories || categories.length === 0) {

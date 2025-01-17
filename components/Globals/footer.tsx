@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold">IndieGamePicks</h2>
             <p className="text-sm text-muted-foreground">
-              "インディ"を選択肢に。
+              インディを選択肢に。
             </p>
           </div>
           <div>
