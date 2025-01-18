@@ -8,6 +8,8 @@ import Link from "next/link";
 // Icons
 import { File, Pen, Tag, Diamond, User, Folder } from "lucide-react";
 
+import { SiteDescription } from "@/components/site-description";
+import { ArticlesCarousel } from "@/components/articles-carousel";
 // This page is using the craft.tsx component and design system
 export default function Home() {
   return (
@@ -23,6 +25,7 @@ export default function Home() {
 const ToDelete = () => {
   return (
     <main className="space-y-6">
+      <ArticlesCarousel/>
       <Prose>
         <h1>
           <Balancer>サンプルアクセスルート</Balancer>
@@ -91,6 +94,7 @@ const ToDelete = () => {
           </span>
         </Link>
       </div>
+      <SiteDescription/>
     </main>
   );
 };
