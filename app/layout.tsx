@@ -17,6 +17,7 @@ import Logo from "@/public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { cn } from "@/lib/utils";
 
 const font = FontSans({
@@ -51,6 +52,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <SpeedInsights />
           <Footer />
         </ThemeProvider>
         <Analytics />
