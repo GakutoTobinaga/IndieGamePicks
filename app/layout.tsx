@@ -4,18 +4,9 @@ import { Footer } from "@/components/Globals/footer";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme/theme-provider";
-import { Button } from "@/components/ui/button";
-import { MobileNav } from "@/components/nav/mobile-nav";
-import { ThemeToggle } from "@/components/theme/theme-toggle";
-import { mainMenu, contentMenu } from "@/menu.config";
-import { Section, Container } from "@/components/craft";
+
 import { Analytics } from "@vercel/analytics/react";
 import { siteConfig } from "@/site.config";
-
-import Balancer from "react-wrap-balancer";
-import Logo from "@/public/logo.svg";
-import Image from "next/image";
-import Link from "next/link";
 
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { cn } from "@/lib/utils";
