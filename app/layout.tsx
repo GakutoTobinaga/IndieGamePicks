@@ -17,9 +17,9 @@ const font = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "IndieGamePicks",
+  title: "インディゲームピックス",
   description:
-    "インディーゲームを紹介",
+    "インディゲームを紹介。インディゲームの世界観に浸かろう。",
   metadataBase: new URL(siteConfig.site_domain),
   alternates: {
     canonical: "/",

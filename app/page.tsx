@@ -28,7 +28,7 @@ const ToDelete = () => {
       <ArticlesCarousel/>
       <Prose>
         <h1>
-          <Balancer>サンプルアクセスルート</Balancer>
+          <Balancer>速報</Balancer>
         </h1>
       </Prose>
 

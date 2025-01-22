@@ -14,12 +14,11 @@ import {
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu'
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, } from '@/components/ui/sheet'
-import { TrendingUp, Star, Users, Grid, Search, Menu } from 'lucide-react'
-
+import {  Star, Users, Grid, Search, Menu } from 'lucide-react'
+import Image from 'next/image'
 const navItems = [
-  { name: 'トレンド', href: '/', icon: TrendingUp },
   { name: 'レビュー', href: '/', icon: Star },
-  { name: 'インタビュー', href: '/', icon: Users },
+  { name: '記事一覧', href: '/', icon: Users },
   { name: 'カテゴリ', href: '/', icon: Grid },
   { name: 'ゲームを探す', href: '/', icon: Search },
 ]
@@ -29,11 +28,11 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 items-center justify-between px-4">
+      <div className="container flex h-24 items-center justify-between px-4">
         {/* ロゴ */}
-        <Link href="/" className="font-bold text-xl">
-          IndieGamePicks
-        </Link>
+      <Link href="/">
+        <Image src="/full_j_logo.png" alt="logo" width={400} height={20}/>
+      </Link>
 
         {/* デスクトップナビゲーション */}
         <div className="hidden md:flex items-center space-x-4">
@@ -71,7 +70,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right">
   <SheetHeader className="mb-6">
-    <SheetTitle>IndieGamePicks</SheetTitle>
+    <SheetTitle><Image src="/full_j_logo.png" alt="logo" width={200} height={20}/></SheetTitle>
   </SheetHeader>
   <nav className="flex flex-col space-y-6">
     {navItems.map((item) => (
