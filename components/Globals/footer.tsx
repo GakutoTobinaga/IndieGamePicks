@@ -3,7 +3,7 @@ import { Instagram, Youtube } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="bg-background border-t">
+    <footer className="bg-gradient-to-r from-purple-500 to-blue-300 border-t">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
