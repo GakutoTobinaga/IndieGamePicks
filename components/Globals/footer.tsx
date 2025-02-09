@@ -12,7 +12,7 @@ export function Footer() {
               インディを選択肢に。
             </p>
           </div>
-          <div>
+          {/* <div>
             <h3 className="font-semibold mb-4">ナビゲーション</h3>
             <ul className="space-y-2">
               <li><Link href="/" className="text-sm hover:underline">ホーム</Link></li>
@@ -20,7 +20,7 @@ export function Footer() {
               <li><Link href="/news" className="text-sm hover:underline">ニュース</Link></li>
               <li><Link href="/about" className="text-sm hover:underline">私たちについて</Link></li>
             </ul>
-          </div>
+          </div> */}
           <div>
             <h3 className="font-semibold mb-4">コンタクト</h3>
             <ul className="space-y-2">
