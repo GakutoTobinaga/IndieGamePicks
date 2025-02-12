@@ -10,7 +10,7 @@ export default function NotFound() {
         <div className="flex flex-col items-center justify-center min-h-[50vh] text-center">
           <h1 className="text-4xl font-bold mb-4">404MG! - Page not found! :(</h1>
           <p className="mb-8">
-            申し訳ございません。ページが見つかりませんでした。
+            ページが見つかりませんでした。
           </p>
           <Button asChild className="not-prose mt-6">
             <Link href="/">ホームに戻る</Link>
